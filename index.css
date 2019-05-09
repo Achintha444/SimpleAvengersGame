@@ -1,0 +1,139 @@
+img{
+    width: 200px;
+    height: 250px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all 0.4s;
+}
+
+body {
+    background-color: blueviolet;
+}
+
+.header{
+    background-color: cornflowerblue;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.header p{
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+.header h2{
+    font-size: 30px;
+    transition: all 0.4s;
+}
+
+.header h2:hover{
+    transform: scale(1.05);
+    color: blueviolet;
+}
+
+.interface a{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.interface div{
+    width: 100vw;
+    height: 250px;
+    padding: 0 10px 0 20px;
+    transition: all 0.4s;
+}
+
+.interface div:hover{
+    background-color: darkmagenta;
+}
+
+.interface h3{
+    padding: 12px 0 4px;
+    color: cornflowerblue;
+}
+
+.interface div:hover p{
+    color: blueviolet;
+}
+
+.button-prefight{
+    width:100%;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.actions{
+    width: 100%;
+    display: flex;
+    flex: wrap;
+}
+
+.actions a{
+    width: 33.33%;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.actions a:nth-of-type(1) {
+    background-color: #e64747;
+  }
+  
+  .actions a:nth-of-type(2) {
+    background-color: #e6ce47;
+  }
+  
+  .actions a:nth-of-type(3) {
+    background-color: #6de647;
+  }
+
+  .actions a:hover{
+      opacity: 0.8;
+  }
+
+  .arena{
+      width: 100%;
+      height: 180px;
+      background-color: cornflowerblue;
+      background-image: url("img/roman-colosseum-italy.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 35vh;
+      visibility: hidden;
+  }
+
+
+
+.enemy a{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.enemy div{
+    width: 100vw;
+    height: 250px;
+    padding: 0 10px 0 20px;
+    transition: all 0.4s;
+}
+
+.enemy div:hover{
+    background-color: darkmagenta;
+}
+
+.enemy h3{
+    padding: 12px 0 4px;
+    color: cornflowerblue;
+}
+
+.enemy div:hover p{
+    color: blueviolet;
+}
